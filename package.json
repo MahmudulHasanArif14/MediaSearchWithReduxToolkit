@@ -1,16 +1,16 @@
 {
-  "homepage": "https://github.com/MahmudulHasanArif14/MediaSearchWithReduxToolkit",
+  "homepage": "https://MahmudulHasanArif14/MediaSearchWithReduxToolkit",
   "name": "fetchimagereduxuse",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.12.0",
